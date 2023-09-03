@@ -1,7 +1,305 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Matias Cotens</title>
+    <meta name="description" content="Portfolio Matias Cotens" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <span class="header__logo-sub">Matias Cotens</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Inicio </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">Sobre mí </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Proyectos
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contacto </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Inicio </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> Sobre mí </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Proyectos </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contacto </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hola, soy Matias Cotens.</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Soy desarrollador de sistemas informáticos y estudiante de Ingeniería en Sistemas de Información.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./index.html#projects" class="btn btn--bg">Proyectos</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/matias-nahuel-cotens" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Sobre mí</span>
+          <span class="heading-sec__sub">
+            Estudiante de Ingeniería en Sistemas de Información y apasionado por el diseño y la programación de sistemas informáticos.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Mas información!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hola! Soy
+                <strong>Matias Cotens</strong>
+                y soy un <strong> desarrollador </strong> ubicado en Buenos Aires. Hice
+                <strong> proyectos web </strong>
+                para negocios e instituciones para ayudar a que sus tareas diarias sean mas sencillas
+                y organizadas, además de darles un posicionamiento más profesional en la web.
+              </p>
+              <p class="about__content-details-para">
+                Me interesan todo tipo de proyectos relacionados con el mundo de la programación
+                y el desarrollo de sistemas de información, en cualquier plataforma. Además, al ser
+                <b>autodidacta</b> busco incorporar conocimientos de <b>nuevas tecnologías</b> constantemente. 
+              </p>
+            </div>
+            <a href="./index.html#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contacto</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Tecnologías conocidas</h3>
+            <div class="skills">
+              <div class="skills__skill">Java</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">PHP</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">C</div>
+              <div class="skills__skill">Laravel</div>
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+            </div>
+            <br>
+            <h3 class="about__content-title">Otros conocimientos</h3>
+            <div class="skills">
+              <div class="skills__skill">Inglés B2 (Cambridge FCE)</div>
+              <div class="skills__skill">Programación Orientada a Objetos</div>
+              <div class="skills__skill">Diseño de Sistemas Orientado a Objetos</div>
+              <div class="skills__skill">Persistencia de Objetos</div>
+              <div class="skills__skill">Programación Lógica y Funcional (básico)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Proyectos</span>
+          <span class="heading-sec__sub">
+            Proyectos relevantes que realicé hasta el momento.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Sistema de Control Interno</h3>
+              <p class="projects__row-content-desc">
+                Sistema de control interno que permite el manejo de stock, ingresos de mercadería, ventas,
+                categorías de productos, cálculos financieros, generación de facturas, entre otros.
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Catálogo Online</h3>
+              <p class="projects__row-content-desc">
+                Sistema web que permite el manejo de productos y stock, además de
+                presentarlos a los clientes a modo de catálogo sin carrito de compras.
+              </p>
+              <a
+                href="https://www.importprovee.com"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tienda Online</h3>
+              <p class="projects__row-content-desc">
+                Catálogo online que permite, además, que el cliente arme su carrito de compras
+                y concrete el pago por WhatsApp con el vendedor de forma directa.
+              </p>
+              <a
+                href="https://www.clubdelmate1.com"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img
+              src="./assets/jpeg/project-mockup-example.jpeg"
+              alt="Software Screenshot"
+              class="projects__row-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Sistema Institucional y Diseñador de Nombres</h3>
+            <p class="projects__row-content-desc">
+              Sitio Web institucional para una institución educativa. Además de permitir dar a conocer la institución de una forma profesional en la web, permite la publicación de noticias
+              y se desarrolló un módulo diseñador de nombres para estampar en remeras.
+            </p>
+            <a
+              href="https://www.colegiohugomidon.com"
+              class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank"
+              >Ver Proyecto</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contacto</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            No dudes en enviarme un mail a <b><a href="mailto:mcotens@gmail.com">mcotens@gmail.com</a></b> para hablar sobre tu nuevo proyecto!
+          </span>
+        </h2>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/matias-nahuel-cotens">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Matias Cotens</h4>
+            <p class="main-footer__short-desc">
+              Desarrollador de sistemas informáticos y estudiante de Ingeniería en Sistemas de Información.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
 </html>
